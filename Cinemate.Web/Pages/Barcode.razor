@@ -1,0 +1,16 @@
+﻿
+@page "/bar"
+
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<input type="button" value="Export" @onclick="@OnExport" />
+<SfQRCodeGenerator Width="200px" Height="150px" Value="Syncfusion" @ref="@QRcode">
+    <QRCodeGeneratorDisplayText Text="Text"></QRCodeGeneratorDisplayText>
+</SfQRCodeGenerator>
+@code {
+    SfQRCodeGenerator QRcode;
+    private void OnExport()
+    {
+        QRcode.Export("fileName", BarcodeExportType.JPG);
+    }
+}

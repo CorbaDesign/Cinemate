@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Cinemate.Web",
   "resources": {
-    "hash": "sha256-Jj1ec1GLfSEIWuFUYsqSl0mWojR38eqB11wkm4JDnZQ=",
+    "hash": "sha256-PKG+S2f1D1xwXCrT5hUudgOe/Zf72GHTo2NUohZkqGI=",
     "jsModuleNative": {
       "dotnet.native.8.0.2.r1f5laua07.js": "sha256-gPMK16QWoJSTxorlZJqcVtbBRTniIQWlLsJN2O4cJHg="
     },
@@ -21,10 +21,12 @@
       "IronBarCode.wasm": "sha256-+R3cGdTgwQp75pK0y+qQxGyHDdp7PrrHbjxC0cfeWf8=",
       "BitMiracle.LibTiff.NET.wasm": "sha256-0Mz6vO0bEw6drXy1hdVeBaYQDToCT8sVTkaHJgg6xj0=",
       "BlazorBootstrap.wasm": "sha256-baW9qv6RBBKXxFoXrLfYxF46dRcfEoWsX8HzyQfbscc=",
+      "BouncyCastle.Cryptography.wasm": "sha256-tZxUz5R8To9wugB18BSeGE89A5lQ0IsnaCl5AkgKfnY=",
       "IronSoftware.Abstractions.wasm": "sha256-wD7RAe5s+GzAf314OX5elWbDIGiEU/5z+hGF7LFa9Ss=",
       "IronSoftware.Logger.wasm": "sha256-2FxneImWuRl7MXceyAYrm5lSg4KymfDj3UQxlMCBw4w=",
       "IronSoftware.Shared.wasm": "sha256-TMzgWur0pBtdUTEN0UN2SLVFagsJnziQ20a92OI8y2M=",
       "IronSoftware.Drawing.Common.wasm": "sha256-N224KM5haA8FaQxuNRiMUDGsEdz7QrzVZrRaCDL9rcA=",
+      "MailKit.wasm": "sha256-/9u++sBPINSOh4er1EelW0i4u500HaCK7UShUTZzM7c=",
       "Microsoft.AspNetCore.Authorization.wasm": "sha256-a3TAIY/5lCJNfNr3HdaMXQ+pT7yTFPbDmuOnfh2Cdps=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-/lTMXvVAAKAFUdtyEtGDtqwRJcVd2m3HCe4p0K5Bzf8=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-qXTiQR2ldnY3SA5wBUTo1cO6EG38EQ5yBkhdxSeT8J8=",
@@ -55,6 +57,7 @@
       "Microsoft.ML.OnnxRuntime.wasm": "sha256-eQ4FAgnBJ27jKYunu0cX8QJ4SfzH6WcwHCalWbZiPoU=",
       "Microsoft.Net.Http.Headers.wasm": "sha256-b59APrldqivzbOYVb0CV+lGgWn4HyUPjMa/cplEp2x8=",
       "Microsoft.Win32.SystemEvents.wasm": "sha256-1kUoFxSGzlbndQM4zal3G/YBdouUTf444lDjqhuWALU=",
+      "MimeKit.wasm": "sha256-Kop2kC2onIWp61FlgN2I7OdbjIl6gQEDJOoxL4ZnpYY=",
       "Radzen.Blazor.wasm": "sha256-4tHRySwpZRfQDjUweT1yNVhDjlcgb39yf74V/gdybo0=",
       "SixLabors.Fonts.wasm": "sha256-vcCpYwrxPmXa+j8Qx8cScVvbis0qUrZqkMAuNGw7dZY=",
       "SixLabors.ImageSharp.wasm": "sha256-2C82CawT5FVfk8SXAB00/U4fZVfJMAlfB4+NHKU4ASI=",
@@ -66,6 +69,7 @@
       "System.Drawing.Common.wasm": "sha256-K4kz7R8w/w1hXO31g3GdLNqPgu4KDENnDuMEnMfDDnc=",
       "System.IO.Pipelines.wasm": "sha256-JqVBy6SV+3qk+IK3VJiyIDt9CsVk6b1/ytTXmrI4mTM=",
       "System.Linq.Dynamic.Core.wasm": "sha256-zY4O55eQ9gC1F0jl4MFsfpX6oCP3eabUwmK1PIrgx3Q=",
+      "System.Security.Cryptography.Pkcs.wasm": "sha256-9TpIcZzuhE5Xr5s6UtJn4iTNHVfo+rLAFJHRcSbG4RQ=",
       "System.Security.Cryptography.ProtectedData.wasm": "sha256-W5tMSDmYEB2xQ9h2R6YF/fHX/B7hkusJMm/i/cqRTV4=",
       "System.Security.Permissions.wasm": "sha256-Kq3ZZSKQkbZ2H5kMG7Mqq4KycqKa35CdKT9M9DM6w4U=",
       "System.Windows.Extensions.wasm": "sha256-Eh4ZyIvqo34A19igrKJBmrt1iW+vrM/Cjy/zUQHTPe8=",
@@ -238,11 +242,11 @@
       "netstandard.wasm": "sha256-ZOswxXEbR2TmqjpbaBEdgr85Bv1NC4GwOwoJ+oxXM3M=",
       "System.Private.CoreLib.wasm": "sha256-I2w0iHf5nvSQyF1YE1VbgdTzmmz6a4OE6J7vo5wFa/4=",
       "Cinemate.Models.wasm": "sha256-DeINqsBH9AyLj6HicNBX3odLhvYaN3bBsQ8cr3q40IY=",
-      "Cinemate.Web.wasm": "sha256-EX4eX/hdUL12rEo8ojlwVoEoI80/p5MVGg8NCUnmxrw="
+      "Cinemate.Web.wasm": "sha256-nc5H1wnmg++GebLvLN4Vs38+Ldu/EjUHVR5XlRcNQUE="
     },
     "pdb": {
       "Cinemate.Models.pdb": "sha256-xTPeUJGHeKYAPioJeahJzC8XqMydHa3EVq5FtvFRX64=",
-      "Cinemate.Web.pdb": "sha256-ehmrWmS+gckgVMeQQSTGmG11rkK+HKiHXSFzmD7lvJU="
+      "Cinemate.Web.pdb": "sha256-bGhvHM98FyBaBA+0OsQ3Ja9tC3ugyLkg756ZVz+tsoc="
     }
   },
   "cacheBootResources": true,
